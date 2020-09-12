@@ -1,0 +1,133 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+   #services{
+    height: 850px!important;
+   }
+    .card-body .card-title{
+        font-size: 1.3rem;
+    }
+    .card-body .card-text{
+        font-size: .9rem;
+    }
+    .card-body .btn{
+        font-size: .8rem;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    #scroll_Top_btn {
+      right: 15px;
+      padding: 5px 10px!important;
+    }
+    #scroll_Top_btn .fa{
+      font-size: 20px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    
+    #services{
+        height: 1900px!important;
+       }
+       .card{
+        margin-bottom: 20px;
+    }
+    #scroll_Top_btn {
+      right: 15px;
+      padding: 5px 10px!important;
+    }
+    #scroll_Top_btn .fa{
+      font-size: 20px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 280px) and (max-width: 480px) {
+    .portfolio-box{
+        width: 100%!important;
+    }
+    
+    .card {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    .section-heading{
+        font-size: 27px!important;
+        padding-bottom: 10px;
+    }
+    .oo_team{
+        font-size: 25px!important;
+    }
+    .footer-basic .btn{
+        margin-top: -40px!important;
+    }
+    h2#portfolio{
+        font-size: 40px!important;
+    }
+    h2.servce_heading{
+        font-size: 40px!important;
+    }
+    img.card-img-top{
+        height: auto!important;
+    }
+    #scroll_Top_btn {
+      right: 15px;
+      padding: 5px 10px!important;
+    }
+    #scroll_Top_btn .fa{
+      font-size: 20px;
+    }
+    .portfolio-box img{
+      width: 100%!important;
+    }
+    
+  }
